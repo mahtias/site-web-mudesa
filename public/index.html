@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>mudesa</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Construction Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="<%= BASE_URL %>Urls/images/favicon.png">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/plugins/bootstrap/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/plugins/fontawesome/css/all.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/plugins/slick/slick.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/plugins/colorbox/colorbox.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="<%= BASE_URL %>Urls/css/style.css">
+
+</head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+    <div class="body-inner">
     <div id="app"></div>
     <!-- built files will be auto injected -->
+  </div>
+
+
+
+
+
+
+    <script src="../src/main.js"></script>
+    <script src="<%= BASE_URL %>Urls/plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="<%= BASE_URL %>Urls/plugins/bootstrap/bootstrap.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script src="<%= BASE_URL %>Urls/plugins/slick/slick.min.js"></script>
+    <script src="<%= BASE_URL %>Urls/plugins/slick/slick-animation.min.js"></script>
+    <!-- Color box -->
+    <script src="<%= BASE_URL %>Urls/plugins/colorbox/jquery.colorbox.js"></script>
+    <!-- shuffle -->
+    <script src="<%= BASE_URL %>Urls/plugins/shuffle/shuffle.min.js" defer></script>
+  
+  
+    <!-- Google Map API Key-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+    <!-- Google Map Plugin-->
+    <script src="<%= BASE_URL %>Urls/plugins/google-map/map.js" defer></script>
+  
+    <!-- Template custom -->
+    <script src="<%= BASE_URL %>Urls/js/script.js"></script>
   </body>
 </html>
