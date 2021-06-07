@@ -5,7 +5,7 @@
           <div class="row">
               <div class="col-lg-8 col-md-8">
                 <ul class="top-info text-center text-md-left">
-                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">Info:</p>
+                    <li><i class="fas fa-map-marker-alt"></i> <marquee class="info-text" style="color:red;">le site du mudesa sera disponible bientot merci !</marquee>
                     
                     </li>
                 </ul>
@@ -45,7 +45,7 @@
       <div class="">
           <div class="row align-items-center ">
             <div class=" col-lg-3  text-lg-left">
-                <router-link :to="{name:'Accueil'}" tag="a" href="#">
+                <router-link :to="{name:'Accueil'}" tag="a">
                   <img loading="lazy" src="images/logo.png" alt="Constra">
                 </router-link>
             </div><!-- logo end -->
@@ -56,7 +56,7 @@
                     <div class="info-box">
                       <div class="info-box-content">
                           <p class="info-box-title">Appel</p>
-                          <p class="info-box-subtitle">(+225) 07 08 51 99 98</p>
+                          <p class="info-box-subtitle">(+225) 07 07 22 33 01</p>
                       </div>
                     </div>
                   </li>
@@ -72,7 +72,7 @@
                     <div class="info-box last">
                       <div class="info-box-content">
                           <p class="info-box-title">Appel</p>
-                          <p class="info-box-subtitle">(+225) 07 88 01 18 87</p>
+                          <p class="info-box-subtitle">(+225) 07 88 02 63 05</p>
                       </div>
                     </div>
                   </li>
@@ -100,7 +100,7 @@
                 <div id="navbar-collapse" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav mr-auto">
                       <li class="nav-item dropdown active">
-                          <router-link :to="{name:'Accueil'}" tag="a" class="nav-link dropdown-toggle" data-toggle="dropdown">Accueil <i class=""></i></router-link>
+                          <router-link :to="{name:'url_accueil'}" tag="a" class="nav-link dropdown-toggle" data-toggle="dropdown">Accueil <i class=""></i></router-link>
                           <!-- <ul class="dropdown-menu" role="menu">
                             <li class="active"><a href="index.html">Home One</a></li>
                             <li><a href="index-2.html">Home Two</a></li>
@@ -110,27 +110,28 @@
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Presentation <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="about.html">Mots du president</a></li>
-                            <li><a href="team.html">Histoire de la mutuelle</a></li>
-                            <li><a href="testimonials.html">Le bureau</a></li>
+                            <li><router-link :to="{name:'pople'}" tag="a" href="#">Our People</router-link></li>
+                            <li><router-link :to="{name:'mot_president'}" tag="a" href="#">Mots du president</router-link></li>
+                            <li><router-link :to="{name:'histoire_mutuelle'}" href="#">Histoire de la mutuelle</router-link></li>
+                            <li><router-link :to="{name:'poste_bureau'}" href="#">Le bureau</router-link></li>
                             <!-- <li><a href="faq.html">Faq</a></li>
-                            <li><a href="pricing.html">Pricing</a></li> -->
+                            <li><a href="pricing.html">Pricing</a></li> pste_bureau -->
                           </ul>
                       </li>
               
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projets <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="projects.html">tous les projets</a></li>
-                            <li><a href="projects-single.html">Projets</a></li>
+                            <li><router-link :to="{name:'all_projet'}" tag="a" href="#">tous les projets</router-link></li>
+                            <li><router-link :to="{name:'single_project'}" tag="a" href="#">Projets</router-link></li>
                           </ul>
                       </li>
               
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Activités  <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="services.html">cérémonie</a></li>
-                            <li><a href="service-single.html">Organisations socio-culturelles</a></li>
+                            <li><router-link :to="{name:'ceremoni'}" tag="a" href="#">cérémonie</router-link></li>
+                            <li><router-link :to="{name:'socio_cuturel'}" tag="a" href="#">Organisations socio-culturelles</router-link></li>
                           </ul>
                       </li>
               
@@ -149,28 +150,28 @@
                             </li>
                           </ul>
                       </li> -->
-                         <li class="nav-item"><a class="nav-link" href="#">Nouvelle Adhésion </a></li>
+                         <li class="nav-item"><router-link :to="{name:'urls_adhesion'}" tag="a" class="nav-link" href="#">Nouvelle Adhésion </router-link></li>
 
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Doc & Rapport <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="news-left-sidebar.html">Rapport</a></li>
-                            <li><a href="news-right-sidebar.html">compte-rendu (CR) </a></li>
-                            <li><a href="news-single.html">Autres</a></li>
+                            <li><router-link :to="{name:'rapport'}" tag="a" href="#">Rapport</router-link></li>
+                            <li><router-link :to="{name:'url_cr'}" tag="a" href="#">compte-rendu (CR) </router-link></li>
+                            <!-- <li><a href="news-single.html">Autres</a></li> -->
                           </ul>
                       </li>
               
                      <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Galerie <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="news-left-sidebar.html">photos</a></li>
-                            <li><a href="news-right-sidebar.html">video</a></li>
+                            <li><router-link :to="{name:'url_photo'}" tag="a" href="#">photos</router-link></li>
+                            <li><router-link :to="{name:'url_video'}" tag="a" href="#">video</router-link></li>
                             <!-- <li><a href="news-single.html">Autres</a></li> -->
                           </ul>
                       </li>
                       <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Apropos</a></li> -->
 
-                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                      <li class="nav-item"><router-link :to="{name:'contcat'}" tag="a" class="nav-link" href="#">Contact</router-link></li>
 
                     </ul>
                 </div>

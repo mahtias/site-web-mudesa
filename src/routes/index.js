@@ -31,7 +31,7 @@ const router = new VueRouter({
    
      // if logged in redirect to dashboard
      if(to.path === '/' && store.state.Utilisateurs.isLoggedIn) {
-       next({ name: 'Accueil' })
+       next({ name: 'url_accueil' })
          return
      }
    

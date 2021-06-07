@@ -7,7 +7,7 @@
           <div class="row align-items-center h-100">
               <div class="col-md-12 text-center">
                 <h2 class="slide-title" data-animation-in="slideInLeft">17 Years of excellence in</h2>
-                <h3 class="slide-sub-title" data-animation-in="slideInRight">Ecole primaire </h3>
+                <h3 class="slide-sub-title" data-animation-in="slideInRight">Notre Ecole primaire </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
                     <a href="services.html" class="slider btn btn-primary">Our Services</a>
                     <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
@@ -41,7 +41,7 @@
           <div class="row align-items-center h-100">
               <div class="col-md-12" style="color:white">
                 <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2>
-                <h3 class="slide-sub-title" data-animation-in="fadeIn">Eglise catholique d'allongo</h3>
+                <h3 class="slide-sub-title" data-animation-in="fadeIn"> Notre Eglise catholique d'allongo</h3>
                 <p class="slider-description lead" data-animation-in="slideInRight">We will deal with your failure that determines how you achieve success.</p>
                 <div data-animation-in="slideInLeft">
                     <a href="contact.html" class="slider btn btn-primary" aria-label="contact-with-us">Get Free Quote</a>
@@ -709,9 +709,9 @@
     </div>
     <!--/ Content row end -->
 
-    <div class="general-btn text-center mt-4">
+    <!-- <div class="general-btn text-center mt-4">
         <a class="btn btn-primary" href="news-left-sidebar.html">See All Posts</a>
-    </div>
+    </div> -->
 
   </div>
   <!--/ Container end -->

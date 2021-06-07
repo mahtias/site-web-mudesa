@@ -1,29 +1,30 @@
 <template>
 <div>
-     <Navbar></Navbar>
+  <navbar></navbar>
     <router-view></router-view>
-<Footer></Footer>
+
+    <Footer></Footer>
+
+
 </div>
+
 </template>
 
 <script>
-import Navbar from "../src/components/layouts/Navbar"
-import Footer from "../src/components/layouts/Footer"
-//import Milieu from "../src/components/layouts/Milieu"
-//const default_layout = "default"
-const default_layout = "default"
-export default {
-    components:{
-        Navbar,
-       // Milieu,
-        Footer
-    },
-
-  computed:{
-    layout(){
-      return (this.$route.meta.layout || default_layout) + '-layout';
-    }
+import Navbar from './components/layouts/Navbar.vue';
+import Footer from './components/layouts/Footer'
+  const default_layout = "default"
+  export default {
+  components: {
+     Navbar ,
+     Footer
   },
 
-}
+    computed:{
+      layout(){
+        return (this.$route.meta.layout || default_layout) + '-layout';
+      }
+    },
+
+  }
 </script>

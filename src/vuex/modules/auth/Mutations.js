@@ -26,5 +26,9 @@ export const SET_ERROR_FALSE = state => state.error = false
 
 export const SET_ERROR_TRUE = state => state.error = true
 
+export const GET_ALL_ACCUEIL = (state, tableau_accueil) =>{
+    state.prestations = tableau_accueil
+}
+
 
 
