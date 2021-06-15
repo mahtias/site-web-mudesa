@@ -6,11 +6,11 @@
         <div class="container h-100">
           <div class="row align-items-center h-100">
               <div class="col-md-12 text-center">
-                <h2 class="slide-title" data-animation-in="slideInLeft">17 Years of excellence in</h2>
+                <!-- <h2 class="slide-title" data-animation-in="slideInLeft">17 Years of excellence in</h2> -->
                 <h3 class="slide-sub-title" data-animation-in="slideInRight">Notre Ecole primaire </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                    <a href="services.html" class="slider btn btn-primary">Our Services</a>
-                    <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
+                    <!-- <a href="services.html" class="slider btn btn-primary">Our Services</a>
+                    <a href="contact.html" class="slider btn btn-primary border">Contact Now</a> -->
                 </p>
               </div>
           </div>
@@ -23,12 +23,12 @@
         <div class="container h-100">
           <div class="row align-items-center h-100">
               <div class="col-md-12" >
-                <h2 class="slide-title-box" data-animation-in="slideInDown" style="color:#000!important">World Class Service</h2>
+                <!-- <h2 class="slide-title-box" data-animation-in="slideInDown" style="color:#000!important">World Class Service</h2> -->
                 <h3 class="slide-title" data-animation-in="fadeIn" style="color:#000!important">Le chateaux</h3>
-                <h3 class="slide-sub-title" data-animation-in="slideInLeft" style="color:#000!important">Your Choice is Simple</h3>
+                <!-- <h3 class="slide-sub-title" data-animation-in="slideInLeft" style="color:#000!important">Your Choice is Simple</h3>
                 <p data-animation-in="slideInRight">
                     <a href="services.html" class="slider btn btn-primary border" style="color:#000!important">Our Services</a>
-                </p>
+                </p> -->
               </div>
           </div>
         </div>
@@ -40,13 +40,13 @@
         <div class="container h-100">
           <div class="row align-items-center h-100">
               <div class="col-md-12" style="color:white">
-                <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2>
+                <!-- <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2> -->
                 <h3 class="slide-sub-title" data-animation-in="fadeIn"> Notre Eglise catholique d'allongo</h3>
-                <p class="slider-description lead" data-animation-in="slideInRight">We will deal with your failure that determines how you achieve success.</p>
+                <!-- <p class="slider-description lead" data-animation-in="slideInRight">We will deal with your failure that determines how you achieve success.</p>
                 <div data-animation-in="slideInLeft">
                     <a href="contact.html" class="slider btn btn-primary" aria-label="contact-with-us">Get Free Quote</a>
                     <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
-                </div>
+                </div> -->
               </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
   </div>
 </div>
 
-<section class="call-to-action-box no-padding">
+<!-- <section class="call-to-action-box no-padding">
   <div class="container">
     <div class="action-style-box">
         <div class="row align-items-center">
@@ -62,16 +62,16 @@
               <div class="call-to-action-text">
                 <h3 class="action-title">We understand your needs on construction</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
           <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
               <div class="call-to-action-btn">
                 <a class="btn btn-dark" href="#">Request Quote</a>
               </div>
-          </div><!-- col end -->
-        </div><!-- row end -->
-    </div><!-- Action style box -->
-  </div><!-- Container end -->
-</section><!-- Action end -->
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
 
 <section id="ts-features" class="ts-features">
   <div class="container">
@@ -83,7 +83,7 @@
               <p>We are rethoric question ran over her cheek When she reached the first hills of the Italic Mountains,
                 she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village
                 and the subline of her own road, the Line Lane.</p>
-          </div><!-- Intro box end -->
+          </div>
 
           <div class="gap-20"></div>
 
@@ -96,8 +96,8 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">We've Repution for Excellence</h3>
                     </div>
-                </div><!-- Service 1 end -->
-              </div><!-- col end -->
+                </div>
+              </div>
 
               <div class="col-md-6">
                 <div class="ts-service-box">
@@ -107,9 +107,9 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">We Build Partnerships</h3>
                     </div>
-                </div><!-- Service 2 end -->
-              </div><!-- col end -->
-          </div><!-- Content row 1 end -->
+                </div>
+              </div>
+          </div>
 
           <div class="row">
               <div class="col-md-6">
@@ -120,8 +120,8 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">Guided by Commitment</h3>
                     </div>
-                </div><!-- Service 1 end -->
-              </div><!-- col end -->
+                </div>
+              </div>
 
               <div class="col-md-6">
                 <div class="ts-service-box">
@@ -131,10 +131,10 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">A Team of Professionals</h3>
                     </div>
-                </div><!-- Service 2 end -->
-              </div><!-- col end -->
-          </div><!-- Content row 1 end -->
-        </div><!-- Col end -->
+                </div>
+              </div>
+          </div>
+        </div>
 
         <div class="col-lg-6 mt-4 mt-lg-0">
           <h3 class="into-sub-title">Our Values</h3>
@@ -185,14 +185,14 @@
                 </div>
               </div>
           </div>
-          <!--/ Accordion end -->
+          
 
-        </div><!-- Col end -->
-    </div><!-- Row end -->
-  </div><!-- Container end -->
-</section><!-- Feature are end -->
+        </div>
+    </div>
+  </div>
+</section> -->
 
-<section id="facts" class="facts-area dark-bg">
+<!-- <section id="facts" class="facts-area dark-bg">
   <div class="container">
     <div class="facts-wrapper">
         <div class="row">
@@ -204,7 +204,7 @@
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="1789">0</span></h2>
                 <h3 class="ts-facts-title">Total Projects</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
           <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
               <div class="ts-facts-img">
@@ -214,7 +214,7 @@
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="647">0</span></h2>
                 <h3 class="ts-facts-title">Staff Members</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
           <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
               <div class="ts-facts-img">
@@ -224,7 +224,7 @@
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="4000">0</span></h2>
                 <h3 class="ts-facts-title">Hours of Work</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
           <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
               <div class="ts-facts-img">
@@ -234,14 +234,14 @@
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="44">0</span></h2>
                 <h3 class="ts-facts-title">Countries Experience</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
-        </div> <!-- Facts end -->
+        </div> 
     </div>
-    <!--/ Content row end -->
+    
   </div>
-  <!--/ Container end -->
-</section><!-- Facts end -->
+  
+</section>
 
 <section id="ts-service-area" class="ts-service-area pb-0">
   <div class="container">
@@ -251,7 +251,7 @@
           <h3 class="section-sub-title">What We Do</h3>
         </div>
     </div>
-    <!--/ Title row end -->
+    
 
     <div class="row">
         <div class="col-lg-4">
@@ -263,7 +263,7 @@
                 <h3 class="service-box-title"><a href="#">Home Construction</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
-          </div><!-- Service 1 end -->
+          </div>
 
           <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
@@ -273,7 +273,7 @@
                 <h3 class="service-box-title"><a href="#">Building Remodels</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
-          </div><!-- Service 2 end -->
+          </div>
 
           <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
@@ -283,13 +283,13 @@
                 <h3 class="service-box-title"><a href="#">Interior Design</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
-          </div><!-- Service 3 end -->
+          </div>
 
-        </div><!-- Col end -->
+        </div>
 
         <div class="col-lg-4 text-center">
           <img loading="lazy" class="img-fluid" src="../../public/Urls/images/services/service-center.jpg" alt="service-avater-image">
-        </div><!-- Col end -->
+        </div>
 
         <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
           <div class="ts-service-box d-flex">
@@ -300,7 +300,7 @@
                 <h3 class="service-box-title"><a href="#">Exterior Design</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
-          </div><!-- Service 4 end -->
+          </div>
 
           <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
@@ -310,7 +310,7 @@
                 <h3 class="service-box-title"><a href="#">Renovation</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
-          </div><!-- Service 5 end -->
+          </div>
 
           <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
@@ -320,13 +320,13 @@
                 <h3 class="service-box-title"><a href="#">Safety Management</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Integer adipiscing erat</p>
               </div>
-          </div><!-- Service 6 end -->
-        </div><!-- Col end -->
-    </div><!-- Content row end -->
+          </div>
+        </div>
+    </div>
 
   </div>
-  <!--/ Container end -->
-</section><!-- Service end -->
+  
+</section> -->
 
 <section id="project-area" class="project-area solid-bg">
   <div class="container">
@@ -336,7 +336,7 @@
         <h3 class="section-sub-title">Recent Projects</h3>
       </div>
     </div>
-    <!--/ Title row end -->
+    
 
     <div class="row">
       <div class="col-12">
@@ -474,15 +474,15 @@
 
       <div class="col-12">
         <div class="general-btn text-center">
-          <a class="btn btn-primary" href="projects.html">View All Projects</a>
+          <a class="btn btn-primary" href="projects.html">Voir tous les projets</a>
         </div>
       </div>
 
     </div><!-- Content row end -->
   </div>
-  <!--/ Container end -->
+  
 </section><!-- Project area end -->
-
+<!-- 
 <section class="content">
   <div class="container">
     <div class="row">
@@ -505,10 +505,9 @@
                           <span class="quote-subtext">Chairman, OKT</span>
                       </div>
                     </div>
-                </div><!-- Quote item end -->
+                </div>
               </div>
-              <!--/ Item 1 end -->
-
+              
               <div class="item">
                 <div class="quote-item">
                     <span class="quote-text">
@@ -524,9 +523,9 @@
                           <span class="quote-subtext">CFO, First Choice</span>
                       </div>
                     </div>
-                </div><!-- Quote item end -->
+                </div>
               </div>
-              <!--/ Item 2 end -->
+             
 
               <div class="item">
                 <div class="quote-item">
@@ -543,13 +542,13 @@
                           <span class="quote-subtext">Director, AKT</span>
                       </div>
                     </div>
-                </div><!-- Quote item end -->
+                </div>
               </div>
-              <!--/ Item 3 end -->
+              
 
           </div>
-          <!--/ Testimonial carousel end-->
-        </div><!-- Col end -->
+          
+        </div>
 
         <div class="col-lg-6 mt-5 mt-lg-0">
 
@@ -560,49 +559,48 @@
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="../../public/Urls/images/clients/client1.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 1 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="../../public/Urls/images/clients/client2.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 2 end -->
-
+              </div>
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="../../public/Urls/images/clients/client3.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 3 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="../../public/Urls/images/clients/client4.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 4 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="../../public/Urls/images/clients/client5.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 5 end -->
+              </div>>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="../../public/Urls/images/clients/client6.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 6 end -->
+              </div>
 
-          </div><!-- Clients row end -->
+          </div>
 
-        </div><!-- Col end -->
+        </div>
 
     </div>
-    <!--/ Content row end -->
+    
   </div>
-  <!--/ Container end -->
-</section><!-- Content end -->
+  
+</section> -->
 
-<section class="subscribe no-padding">
+<!-- <section class="subscribe no-padding">
   <div class="container">
     <div class="row">
         <div class="col-lg-4">
@@ -610,7 +608,7 @@
               <h3>Can We Help?</h3>
               <h4>(+9) 847-291-4353</h4>
           </div>
-        </div><!-- Col end -->
+        </div>
 
         <div class="col-lg-8">
           <div class="ts-newsletter row align-items-center">
@@ -627,14 +625,14 @@
                     </div>
                 </form>
               </div>
-          </div><!-- Newsletter end -->
-        </div><!-- Col end -->
+          </div>
+        </div>
 
-    </div><!-- Content row end -->
+    </div>
   </div>
-  <!--/ Container end -->
+  
 </section>
-<!--/ subscribe end -->
+
 
 <section id="news" class="news">
   <div class="container">
@@ -644,7 +642,7 @@
           <h3 class="section-sub-title">Recent Projects</h3>
         </div>
     </div>
-    <!--/ Title row end -->
+    
 
     <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
@@ -664,8 +662,8 @@
                     </span>
                 </div>
               </div>
-          </div><!-- Latest post end -->
-        </div><!-- 1st post col end -->
+          </div>
+        </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="latest-post">
@@ -684,8 +682,8 @@
                     </span>
                 </div>
               </div>
-          </div><!-- Latest post end -->
-        </div><!-- 2nd post col end -->
+          </div>
+        </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="latest-post">
@@ -704,17 +702,13 @@
                     </span>
                 </div>
               </div>
-          </div><!-- Latest post end -->
-        </div><!-- 3rd post col end -->
+          </div>
+        </div>
     </div>
-    <!--/ Content row end -->
-
-    <!-- <div class="general-btn text-center mt-4">
-        <a class="btn btn-primary" href="news-left-sidebar.html">See All Posts</a>
-    </div> -->
+    
 
   </div>
-  <!--/ Container end -->
-</section>
+  
+</section> -->
     </div>
 </template>

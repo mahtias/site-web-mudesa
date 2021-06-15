@@ -13,6 +13,7 @@ export const champVide = state => state.champVide
 export const errorMessage = state => state.errorMessage
 
 export const Utilisateurs = state => state.Utilisateurs
+export const gettersContact = state => state.Contact
 
 
 

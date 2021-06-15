@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row text-center">
         <div class="col-12">
-          <h2 class="section-title">Work of Excellence</h2>
+          <!-- <h2 class="section-title">Work of Excellence</h2> -->
           <h3 class="section-sub-title">les images</h3>
         </div>
     </div>

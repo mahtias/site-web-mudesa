@@ -1,5 +1,11 @@
 <template>
 <div>
+  <div class="row text-center">
+        <div class="col-10">
+          <!-- <h2 class="section-title">Work of Excellence</h2> -->
+          <h3 class="section-sub-title">les videos de quelque Evenement</h3>
+        </div>
+    </div>
      <div class="row">
           <div class="col-lg-4 col-md-6 mb-5">
         <video src="../../../public/images/video/Jack M.mp4" width=320  height=240 controls poster="vignette.jpg">

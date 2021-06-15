@@ -30,5 +30,11 @@ export const GET_ALL_ACCUEIL = (state, tableau_accueil) =>{
     state.prestations = tableau_accueil
 }
 
+export const GET_ALL_CONTACT = (state, tableau_contact) =>{
+    state.Contact = tableau_contact
+}
+export const AJOUTER_CONTACT = (state, elementAjout) =>{
+    state.Contact.unshift(elementAjout)
+}
 
 

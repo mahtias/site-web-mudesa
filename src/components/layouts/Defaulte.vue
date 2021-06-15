@@ -9,7 +9,6 @@
        <slot/>
 
     </dvi>
-    
     </div>
 </template>
 <script>

@@ -47,8 +47,16 @@
             </div>
             <div class="col-md-4">
               <div class="form-group">
-                <label>Subject</label>
-                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
+                <label>Profession</label>
+                <select  class="form-control form-select-profession">
+               
+                  <option>selectionner votre profession</option>
+                  <option>Etudiant</option>
+                  <option>Elève</option>
+                  <option>Fonctionnaire</option>
+                  <option>Planteur</option>
+                </select>
+                <!-- <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required> -->
               </div>
             </div>
           </div>

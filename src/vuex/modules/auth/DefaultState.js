@@ -6,7 +6,8 @@ const defaultstate = {
     loader: false,
     error: false,
     errorMessage: undefined,
-    Utilisateurs:[]
+    Utilisateurs:[],
+    Contact:[]
 
 };
 

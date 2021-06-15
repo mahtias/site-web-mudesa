@@ -8,13 +8,13 @@
           <div class="col-lg-12">
               <div class="banner-heading">
                 <h1 class="banner-title">Tous les projets</h1>
-                <nav aria-label="breadcrumb">
+                <!-- <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
                       <li class="breadcrumb-item"><a href="#">Home</a></li>
                       <li class="breadcrumb-item"><a href="#">Project</a></li>
                       <li class="breadcrumb-item active" aria-current="page">All Projects</li>
                     </ol>
-                </nav>
+                </nav> -->
               </div>
           </div><!-- Col end -->
         </div><!-- Row end -->
@@ -109,10 +109,12 @@
             </div>
           </div><!-- shuffle item 3 end -->
 
+
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../../public/images/projects/project4.jpg">
-                <img class="img-fluid" src="../../../public/images/projects/project4.jpg" alt="project-image">
+                <!-- <img class="img-fluid" src="../../../public/images/projects/project4.jpg" alt="project-image"> -->
+                 <img class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="project-image">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -129,7 +131,7 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../../public/images/projects/project5.jpg">
-                <img class="img-fluid" src="../../../public/images/projects/project5.jpg" alt="project-image">
+                <img class="img-fluid" src="../../../public/Urls/images/news/news8.jpg"  alt="project-image">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
