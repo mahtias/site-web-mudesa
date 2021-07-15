@@ -4,8 +4,8 @@
         <div class="container">
           <div class="row">
               <div class="col-lg-8 col-md-8">
-                <ul class=" ">
-                    <i class=""></i> <marquee class="info-text" style="color:red;">le site du mudesa sera disponible bientot merci !</marquee>
+                <ul class=" " v-for="item  in gettersMessage" :key="item.id">
+                    <i class=""></i> <marquee behavior="" direction="left" class="btn btn-primary solid blank" style="color:red; width:1200px;" >{{item.libelle}}</marquee>
                     
                 </ul>
               </div>
@@ -44,8 +44,8 @@
       <div class="">
           <div class="row align-items-center ">
             <div class="">
-                <router-link :to="{name:'Accueil'}" tag="a">
-                  <img loading="" src="images/logo.png" alt="">
+                <router-link :to="{name:'url_accueil'}" tag="a">
+                  <img  src="images/logo.png" alt="">
                 </router-link>
             </div><!-- logo end -->
   
@@ -122,7 +122,7 @@
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projets <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
                             <li><router-link :to="{name:'all_projet'}" tag="a" href="#">tous les projets</router-link></li>
-                            <li><router-link :to="{name:'single_project'}" tag="a" href="#">Projets</router-link></li>
+                            <!-- <li><router-link :to="{name:'single_project'}" tag="a" href="#">Projets</router-link></li> -->
                           </ul>
                       </li>
               
@@ -170,7 +170,7 @@
                             <!-- <li><a href="news-single.html">Autres</a></li> -->
                           </ul>
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="#">Apropos</a></li>
+                      <li class="nav-item"><router-link :to="{name:'propos_mudesa'}" tag="a" class="nav-link" href="#">Apropos</router-link></li>
 
                       <li class="nav-item"><router-link :to="{name:'contcat'}" tag="a" class="nav-link" href="#">Contact</router-link></li>
 
@@ -201,3 +201,30 @@
 <!--/ Header end -->
     </div>
 </template>
+<script>
+import {mapGetters , mapActions} from "vuex"
+export default {
+  data() {
+    return{
+
+    }
+    
+  },
+  created(){
+    this.getMessage()
+    this.getDocument()
+  },
+  computed:{
+...mapGetters("Utilisateurs", ["gettersMessage",""])
+  },
+
+
+  methods:{
+...mapActions("Utilisateurs",["getMessage","getDocument"])
+
+
+
+
+  }
+}
+</script>

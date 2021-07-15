@@ -13,6 +13,7 @@ import contact from '../../pages/folderContact/contact.vue'
 import document_rapport from '../../pages/folderRapport/document_rapport.vue'
 import cr from '../../pages/folderRapport/cr.vue'
 import our_people from '../../pages/folderPresentation/our_people.vue'
+import Apropos from "../../pages/folderApropos/Apropos.vue"
 
 const appRoute = [
 
@@ -20,6 +21,11 @@ const appRoute = [
         path: "/accueil",
         name: "url_accueil",
         component: Accueil
+    },
+    {
+        path:"/apropos-mudesa",
+        name:"propos_mudesa",
+        component:Apropos
     },
     {
         path:"/our-people",

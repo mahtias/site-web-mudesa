@@ -94,7 +94,7 @@
 
   <form id="contact-form" action="#" method="post" role="form">
           <div class="error-container" style="margin-left:110px;">
-            <h2>FORMULAIRE DE CONTACT</h2>
+            <h2 class="btn btn-primary solid blank">FORMULAIRE DE CONTACT</h2>
 
 <p>Pour toute question ou demande d'information, vous pouvez nous appeler ou nous contacter avec le formulaire ci-dessous</p>
           </div>

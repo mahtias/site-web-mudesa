@@ -13,8 +13,13 @@ export const champVide = state => state.champVide
 export const errorMessage = state => state.errorMessage
 
 export const Utilisateurs = state => state.Utilisateurs
-export const gettersContact = state => state.Contact
 
+export const gettersContact = state => state.Contact
+export const gettersAdhesions = state => state.Adhesions
+
+export const gettersMessage = state => state.messages
+
+export const gettersDocuments = state => state.documents
 
 
 

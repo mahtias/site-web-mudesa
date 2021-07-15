@@ -8,9 +8,13 @@ import store from './vuex/store'
 import vuetify from './plugins/vuetify'
 import VueLoading from 'vuejs-loading-plugin'
 import Notifications from 'vue-notification'
+import VueGallerySlideshow from 'vue-gallery-slideshow'
+import 'iview/dist/styles/iview.css';
+import Iview from "iview"
+Vue.use(Iview)
 Vue.use(Notifications)
 //import vuetify from '/plugins/vuetify'
-
+ Vue.use(VueGallerySlideshow)
 Vue.config.productionTip = false
 Vue.use(VueLoading, {
     dark: true, // default false

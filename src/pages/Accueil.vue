@@ -362,7 +362,7 @@
           <label for="healthcare">
             <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Healthcare
           </label>
-        </div><!-- project filter end -->
+        </div>
 
 
         <div class="row shuffle-wrapper">
@@ -383,7 +383,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 1 end -->
+          </div>
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
             <div class="project-img-container">
@@ -400,7 +400,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 2 end -->
+          </div>
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
@@ -417,7 +417,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 3 end -->
+          </div>
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
             <div class="project-img-container">
@@ -434,8 +434,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 4 end -->
-
+          </div>
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project5.jpg" aria-label="project-img">
@@ -451,7 +450,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 5 end -->
+          </div>
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;residential&quot;]">
             <div class="project-img-container">
@@ -468,8 +467,8 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 6 end -->
-        </div><!-- shuffle end -->
+          </div>
+        </div>
       </div>
 
       <div class="col-12">
@@ -478,10 +477,10 @@
         </div>
       </div>
 
-    </div><!-- Content row end -->
+    </div>
   </div>
   
-</section><!-- Project area end -->
+</section>
 <!-- 
 <section class="content">
   <div class="container">

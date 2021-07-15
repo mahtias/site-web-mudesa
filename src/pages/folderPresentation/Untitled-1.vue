@@ -1,29 +1,14 @@
-<template>
-    <div>
-        <section id="news" class="news">
-  <div class="container">
-    <div class="row text-center">
-        <div class="col-12">
-          
-          <h3 class="section-sub-title">les images</h3>
-        </div>
-    </div>
-    
-
-    <div class="row">
+ <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="latest-post">
               <div class="latest-post-media">
-
                 <a href="#" class="latest-post-img">
-                  <vue-gallery-slideshow>
-                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
-                   </vue-gallery-slideshow>
+                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/dossierImage/image11.jpg" alt="img">
                 </a>
               </div>
               <div class="post-body">
                 <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">école primaire d'allongo</a>
+                    <a href="news-single.html" class="d-inline-block">le bureau </a>
                 </h4>
                 <div class="latest-post-meta">
                     <span class="post-item-date">
@@ -31,19 +16,19 @@
                     </span>
                 </div>
               </div>
-          </div><!-- Latest post end -->
-        </div><!-- 1st post col end -->
+          </div>
+        </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="latest-post">
               <div class="latest-post-media">
                 <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
+                   <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/dossierImage/image12.jpg" alt="img">
                 </a>
               </div>
               <div class="post-body">
                 <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">école primaire d'allongo</a>
+                    <a href="news-single.html" class="d-inline-block">le poste d'assistant</a>
                 </h4>
                 <div class="latest-post-meta">
                     <span class="post-item-date">
@@ -51,19 +36,39 @@
                     </span>
                 </div>
               </div>
-          </div><!-- Latest post end -->
-        </div><!-- 2nd post col end -->
+          </div>
+        </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="latest-post">
               <div class="latest-post-media">
                 <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
+                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/dossierImage/image1.jpg" alt="img">
                 </a>
               </div>
               <div class="post-body">
                 <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">école primaire d'allongo</a>
+                    <a href="news-single.html" class="d-inline-block">le bureau </a>
+                </h4>
+                <div class="latest-post-meta">
+                    <span class="post-item-date">
+                      <i class="fa fa-clock-o"></i> July 20, 2017
+                    </span>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4 col-md-6 mb-4">
+          <div class="latest-post">
+              <div class="latest-post-media">
+                <a href="#" class="latest-post-img">
+                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/IMG6.jpg" alt="img">
+                </a>
+              </div>
+              <div class="post-body">
+                <h4 class="post-title">Le vise-president
+                    <a href="news-single.html" class="d-inline-block">M.Boua Mouhi Paul</a>
                 </h4>
                 <div class="latest-post-meta">
                     <span class="post-item-date">
@@ -72,24 +77,5 @@
                 </div>
               </div>
           </div>
-        </div>
+        </div> -->
     </div>
-    
-
-
-
-  </div>
-  <!--/ Container end -->
-</section>
-    </div>
-</template>
-<script>
-export default {
-    data() {
-      return{
-
-      }
-        
-    },
-}
-</script>

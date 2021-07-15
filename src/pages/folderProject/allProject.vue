@@ -22,44 +22,19 @@
   </div><!-- Banner text end -->
 </div><!-- Banner area end --> 
 
-
-
 <section id="main-container" class="main-container">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="shuffle-btn-group">
-          <label class="active" for="all">
-            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Tous les projets
-          </label>
-          <label for="commercial">
-            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Santé
-          </label>
-          <label for="education">
-            <input type="radio" name="shuffle-filter" id="education" value="education">Education
-          </label>
-          <label for="government">
-            <input type="radio" name="shuffle-filter" id="government" value="government">Culturelle
-          </label>
-          <label for="infrastructure">
-            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Infrastructure
-          </label>
-          <label for="residential">
-            <input type="radio" name="shuffle-filter" id="residential" value="residential">Sécurité
-          </label>
-          <label for="healthcare">
-            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Agricole
-          </label>
-        </div>
 
 
-        <div class="row shuffle-wrapper">
-          <div class="col-1 shuffle-sizer"></div>
-
-          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
+          <Tabs size="small">
+        <TabPane label="Tous">
+         <!-- <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]"> -->
             <div class="project-img-container">
-              <a class="gallery-popup" href="../../../public/images/projects/project1.jpg">
-                <img class="img-fluid" src="../../../public/images/projects/project1.jpg" alt="project-image">
+              <a class="gallery-popup" href="images/projects/project1.jpg">
+                <img class="img-fluid" src="images/projects/project1.jpg" alt="project-image">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -70,15 +45,16 @@
                   <p class="project-cat">Commercial, Interiors</p>
                 </div>
               </div>
-            </div>
+            <!-- </div> -->
           </div><!-- shuffle item 1 end -->
 
-          
 
-          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
-            <div class="project-img-container">
-              <a class="gallery-popup" href="../../../public/images/projects/project2.jpg">
-                <img class="img-fluid" src="../../../public/images/projects/project2.jpg" alt="project-image">
+
+        </TabPane>
+        <TabPane label="Santé">
+           <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project2.jpg">
+                <img class="img-fluid" src="images/projects/project2.jpg" alt="project-image">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -90,12 +66,11 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 2 end -->
-
-          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
-            <div class="project-img-container">
-              <a class="gallery-popup" href="../../../public/images/projects/project3.jpg">
-                <img class="img-fluid" src="../../../public/images/projects/project3.jpg" alt="project-image">
+        </TabPane>
+        <TabPane label="Agricole">
+           <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project3.jpg">
+                <img class="img-fluid" src="images/projects/project3.jpg" alt="project-image">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -107,57 +82,143 @@
                 </div>
               </div>
             </div>
-          </div><!-- shuffle item 3 end -->
-
-
-          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
-            <div class="project-img-container">
-              <a class="gallery-popup" href="../../../public/images/projects/project4.jpg">
-                <!-- <img class="img-fluid" src="../../../public/images/projects/project4.jpg" alt="project-image"> -->
-                 <img class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="project-image">
-                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
-              </a>
-              <div class="project-item-info">
-                <div class="project-item-info-content">
-                  <h3 class="project-item-title">
-                    <a href="projects-single.html">Narriot Headquarters</a>
-                  </h3>
-                  <p class="project-cat">Infrastructure</p>
-                </div>
-              </div>
-            </div>
-          </div><!-- shuffle item 4 end -->
-
-          <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
-            <div class="project-img-container">
-              <a class="gallery-popup" href="../../../public/images/projects/project5.jpg">
-                <img class="img-fluid" src="../../../public/Urls/images/news/news8.jpg"  alt="project-image">
-                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
-              </a>
-              <div class="project-item-info">
-                <div class="project-item-info-content">
-                  <h3 class="project-item-title">
-                    <a href="projects-single.html">Kalas Metrorail</a>
-                  </h3>
-                  <p class="project-cat">Infrastructure</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        </TabPane>
+    </Tabs>
 
        
-        </div><!-- shuffle end -->
+    <!-- <Tabs type="card">
+        <TabPane v-for="tab in tabs" :key="tab" :label="'ad' + tab">ad{{ tab }}</TabPane>
+        <Button @click="handleTabsAdd" size="small" slot="extra" class="btn btn-danger">Ajouter</Button>
+    </Tabs> -->
+
+
+
+           <!-- <v-card>
+    <v-tabs
+      v-model="tab"
+      background-color="primary"
+      dark
+    >
+      <v-tab
+        v-for="item in items"
+        :key="item.tab"
+      >
+        {{ item.tab }}
+      </v-tab>
+    </v-tabs>
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item
+        v-for="item in items"
+        :key="item.tab"
+      >
+        <v-card flat>
+          <v-card-text>{{ item.content }}</v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs-items>
+  </v-card>  -->
+          <!-- <label class="active" for="all">
+            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
+          </label>
+          <label for="commercial">
+            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Commercial
+          </label>
+          <label for="education">
+            <input type="radio" name="shuffle-filter" id="education" value="education">Education
+          </label>
+          <label for="government">
+            <input type="radio" name="shuffle-filter" id="government" value="government">Government
+          </label>
+          <label for="infrastructure">
+            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Infrastructure
+          </label>
+          <label for="residential">
+            <input type="radio" name="shuffle-filter" id="residential" value="residential">Residential
+          </label>
+          <label for="healthcare">
+            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Healthcare
+          </label> -->
+        </div><!-- project filter end -->
+
+
+      
       </div>
 
       <div class="col-12">
         <div class="general-btn text-center">
-          <a class="btn btn-primary" href="projects.html">Voir tous les projets</a>
+          <a class="btn btn-primary" href="#">Voir  tous les projets</a>
         </div>
       </div>
 
-    </div><!-- Content row end -->
+    </div>
 
-  </div><!-- Conatiner end -->
-</section><!-- Main container end -->
+  </div>
+</section>
+
+<!-- 
+ <v-card>
+    <v-tabs
+      v-model="tab"
+      background-color="primary"
+      dark
+    >
+      <v-tab
+        v-for="item in items"
+        :key="item.tab"
+      >
+        {{ item.tab }}
+      </v-tab>
+    </v-tabs>
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item
+        v-for="item in items"
+        :key="item.tab"
+      >
+        <v-card flat>
+          <v-card-text>{{ item.content }}</v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs-items>
+  </v-card> -->
+
     </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+         tabs: 2,
+        tab: null,
+        items: [
+          // { tab: 'Tous les projets', content: 'Tab 1 Content' },
+          // { tab: 'Commerciale', content: 'Commerciale' },
+          // { tab: 'Education', content: 'Education' },
+          // { tab: 'Santé', content: 'Tab 4 Content' },
+          // { tab: 'Agricole', content: 'Tab 5 Content' },
+          // { tab: 'Infrastruture', content: 'Tab 6 Content' },
+          // { tab: 'Seven', content: 'Tab 7 Content' },
+          // { tab: 'Eight', content: 'Tab 8 Content' },
+          // { tab: 'Nine', content: 'Tab 9 Content' },
+          // { tab: 'Ten', content: 'Tab 10 Content' },
+        ],
+      }
+    },
+      methods: {
+            handleTabsAdd () {
+                this.tabs ++;
+            }
+        }
+  }
+</script>
+
+<style scoped>
+
+.label1{
+   /* width: 200px;
+  margin-left: 50px;
+  background-position: center; */
+}
+</style>

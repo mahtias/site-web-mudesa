@@ -7,7 +7,11 @@ const defaultstate = {
     error: false,
     errorMessage: undefined,
     Utilisateurs:[],
-    Contact:[]
+    Contact:[],
+    Adhesions:[],
+    messages:[],
+    documents:[]
+
 
 };
 

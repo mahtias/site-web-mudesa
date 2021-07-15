@@ -1,103 +1,113 @@
 <template>
     <div>
-        <br>
-        <h4>
-            Bonjour à tous les membres de la MUDESA 
-            ,A l’occurrence le président
-             ‘’AKA BERNARD ‘’vous invite Massivement à prendre part à 
-             la Grande cérémonie de la 
-             <br>
-             remise des prix au Meilleurs
-             élèves et Enseignants d’Allongo . La Date:10 Août 2019.Cette 
-             cérémonie dénommée « GFCA »
-        </h4>
-        <br>
-        <h4>
-            Je Suis pour le Développement
-De ma commune Anoumaba (Petit Paris Allongo).
-        </h4>
-
-
-          <section id="news" class="news">
-  <div class="container">
-    <div class="row text-center">
-        <div class="col-12">
-          <h2 class="section-title">Work of Excellence</h2>
-          <h3 class="section-sub-title">les images</h3>
+        <div class="row">
+          <div class="">
+        <div class=""  id="color-form" style="margin-top:-70px;">
+          <h1 class="" style="margin-left:300px;margin-top:50px;" id="form-d"> Histoire du MUDESA</h1>
+          <h3 class="section-sub-title"></h3>
         </div>
     </div>
-    <!--/ Title row end -->
-
-    <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="latest-post">
-              <div class="latest-post-media">
-                <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
+        <div class="col-lg-4 col-md-6 mb-4" style="margin-top:-0px;">
+          <div class="" style="padding:auto;">
+              <div>
+                <a href="#" class="">
+                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/dossierImage/image1.jpg" alt="img">
                 </a>
               </div>
-              <div class="post-body">
-                <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">école primaire d'allongo</a>
-                </h4>
-                <div class="latest-post-meta">
-                    <span class="post-item-date">
-                      <i class="fa fa-clock-o"></i> July 20, 2017
-                    </span>
-                </div>
-              </div>
-          </div><!-- Latest post end -->
-        </div><!-- 1st post col end -->
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="latest-post">
-              <div class="latest-post-media">
-                <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
+              <div>
+                <a href="#" class="">
+                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/dossierImage/image10.jpg" alt="img">
                 </a>
               </div>
-              <div class="post-body">
-                <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">école primaire d'allongo</a>
-                </h4>
-                <div class="latest-post-meta">
-                    <span class="post-item-date">
-                      <i class="fa fa-clock-o"></i> June 17, 2017
-                    </span>
-                </div>
-              </div>
-          </div><!-- Latest post end -->
-        </div><!-- 2nd post col end -->
+            
+          </div>
+        </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
-          <div class="latest-post">
-              <div class="latest-post-media">
-                <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
-                </a>
-              </div>
-              <div class="post-body">
-                <h4 class="post-title">
-                    <a href="news-single.html" class="d-inline-block">école primaire d'allongo</a>
-                </h4>
-                <div class="latest-post-meta">
-                    <span class="post-item-date">
-                      <i class="fa fa-clock-o"></i> Aug 13, 2017
-                    </span>
-                </div>
-              </div>
-          </div><!-- Latest post end -->
-        </div><!-- 3rd post col end -->
+          <p> 
+ 
+J’ai eu la grâce de Dieu de faire des
+ formations en France , Espagne, Allemagne (ESCP EUROPE, SCIENCES PO PARIS), 
+ en Inde (MDI), en Angleterre (London School of Economics and Political Science), 
+ aux Etats unis (New York Language Center à Manhattan, «Emerging Leaders » 
+ Exécutive Education Harvard John F. Kenney School of Government, Boston Massachusetts). 
+ En travaillant avec les autres étudiants des autres pays ou continents, je me suis rendu compte,
+  que nous n’avons pas à nous plaindre des formations que nous recevons dans nos pays Africains.
+ Nous sommes bien formés en Afrique et même 
+ des fois dans des conditions difficiles.</p> 
+
+  <p> 
+ 
+J’ai eu la grâce de Dieu de faire des
+ formations en France , Espagne, Allemagne (ESCP EUROPE, SCIENCES PO PARIS), 
+ en Inde (MDI), en Angleterre (London School of Economics and Political Science), 
+ aux Etats unis (New York Language Center à Manhattan, «Emerging Leaders » 
+ Exécutive Education Harvard John F. Kenney School of Government, Boston Massachusetts). 
+ En travaillant avec les autres étudiants des autres pays ou continents, je me suis rendu compte,
+  que nous n’avons pas à nous plaindre des formations que nous recevons dans nos pays Africains.
+ Nous sommes bien formés en Afrique et même 
+ des fois dans des conditions difficiles.</p> 
+
+  <p> 
+ 
+J’ai eu la grâce de Dieu de faire des
+ formations en France , Espagne, Allemagne (ESCP EUROPE, SCIENCES PO PARIS), 
+ en Inde (MDI), en Angleterre (London School of Economics and Political Science), 
+ aux Etats unis (New York Language Center à Manhattan, «Emerging Leaders » 
+ Exécutive Education Harvard John F. Kenney School of Government, Boston Massachusetts). 
+ En travaillant avec les autres étudiants des autres pays ou continents, je me suis rendu compte,
+  que nous n’avons pas à nous plaindre des formations que nous recevons dans nos pays Africains.
+ Nous sommes bien formés en Afrique et même 
+ des fois dans des conditions difficiles.</p> 
+ </div>
+ <br>
+ 
+ 
+ <div class="col-lg-4 col-md-6 mb-4">
+          <p>
+   Ce qui nous manque, c’est notre préparation à 
+     intégrer l’entreprise en travaillant sur des cas pratiques 
+      tirés du vécu quotidien des entreprises. Pourtant, si nos parents
+       consentent autant de sacrifice pour nous scolariser, c’est pour que,
+              nous puissions intégrer après nos études une entreprise en tant qu’employé ou propriétaire.
+               Malheureusement, ce n’est toujours pas le cas et beaucoup de diplômés de nos écoles ou structures 
+               de formation se retrouvent sans emploi et des fois sans stage, au grand désespoir du concerné et
+                de ses parents. Ainsi, il se creuse de plus en plus, comme un fossé entre nos 
+                formations diplômantes et les besoins réels des entreprises. Comme conséquence, 
+                
+          </p> <br>
+
+                <p>
+   Ce qui nous manque, c’est notre préparation à 
+     intégrer l’entreprise en travaillant sur des cas pratiques 
+      tirés du vécu quotidien des entreprises. Pourtant, si nos parents
+       consentent autant de sacrifice pour nous scolariser, c’est pour que,
+              nous puissions intégrer après nos études une entreprise en tant qu’employé ou propriétaire.
+               Malheureusement, ce n’est toujours pas le cas et beaucoup de diplômés de nos écoles ou structures 
+               de formation se retrouvent sans emploi et des fois sans stage, au grand désespoir du concerné et
+                de ses parents. Ainsi, il se creuse de plus en plus, comme un fossé entre nos 
+                formations diplômantes et les besoins réels des entreprises. Comme conséquence, 
+                
+          </p>
+                  <p>
+   Ce qui nous manque, c’est notre préparation à 
+     intégrer l’entreprise en travaillant sur des cas pratiques 
+      tirés du vécu quotidien des entreprises. Pourtant, si nos parents
+       consentent autant de sacrifice pour nous scolariser, c’est pour que,
+              nous puissions intégrer après nos études une entreprise en tant qu’employé ou propriétaire.
+               Malheureusement, ce n’est toujours pas le cas et beaucoup de diplômés de nos écoles ou structures 
+               de formation se retrouvent sans emploi et des fois sans stage, au grand désespoir du concerné et
+                de ses parents. Ainsi, il se creuse de plus en plus, comme un fossé entre nos 
+                formations diplômantes et les besoins réels des entreprises. Comme conséquence, 
+                
+          </p>
+
+        
+</div> 
+
+
+        
     </div>
-    <!--/ Content row end -->
-
-    <!-- <div class="general-btn text-center mt-4">
-        <a class="btn btn-primary" href="news-left-sidebar.html">See All Posts</a>
-    </div> -->
-
-  </div>
-  <!--/ Container end -->
-</section>
     </div>
 </template>
 
@@ -108,3 +118,19 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+#color-form{
+ background-color:#fe860b ; 
+ width:2000px;
+ height:100px;
+ padding-bottom:-100px;
+  margin-left:-210px;
+
+
+
+}
+#form-d{
+ color: #ffffff ; 
+}
+</style>

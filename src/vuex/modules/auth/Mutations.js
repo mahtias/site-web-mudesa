@@ -37,4 +37,19 @@ export const AJOUTER_CONTACT = (state, elementAjout) =>{
     state.Contact.unshift(elementAjout)
 }
 
+export const GET_ALL_ADHESION= (state, tableau_adhesion) =>{
+    state.Adhesions = tableau_adhesion
+}
+export const AJOUTER_ADHESION = (state, elementAjout) =>{
+    state.Adhesions.unshift(elementAjout)
+}
+
+
+export const GET_ALL_MESSAGE= (state, tableau_message) =>{
+    state.messages = tableau_message
+}
+
+export const GET_ALL_DOCUMENT= (state, tableau_document) =>{
+    state.documents = tableau_document
+}
 

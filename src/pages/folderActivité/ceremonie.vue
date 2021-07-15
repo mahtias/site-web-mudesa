@@ -8,13 +8,13 @@
           <div class="col-lg-12">
               <div class="banner-heading">
                 <h1 class="banner-title">Ceremonie</h1>
-                <nav aria-label="breadcrumb">
+                <!-- <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
                       <li class="breadcrumb-item"><a href="#">Home</a></li>
                       <li class="breadcrumb-item"><a href="#">Services</a></li>
                       <li class="breadcrumb-item active" aria-current="page">All Services</li>
                     </ol>
-                </nav>
+                </nav> -->
               </div>
           </div><!-- Col end -->
         </div><!-- Row end -->

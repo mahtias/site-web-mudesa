@@ -6,10 +6,10 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-4 col-md-6 footer-widget footer-about">
-            <h3 class="widget-title">About Us</h3>
+            <h3 class="widget-title">MUDESA</h3>
              <img loading="lazy" src="images/logo.png" alt="Constra">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
-              labore et dolore magna aliqua.</p>
+            <p>Muttuelle pour le Developpement <br>
+              Economique et Social d'Allongo</p>
             <div class="footer-social">
               <ul>
                 <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i

@@ -21,22 +21,39 @@ const router = new VueRouter({
   });
 
   router.beforeEach((to, from, next) => {
-    // console.log(store)
-     // check if the route requires authentication and user is not logged in
-     if (to.matched.some(route => route.meta.requiresAuth) && !store.state.Utilisateurs.isLoggedIn) {
-         // redirect to login page
-         next({ name: 'Login' })
-         return
-     }
+
+  if (to.path === '/' && !store.state.Utilisateurs.isLoggedIn) {
+      // redirect to login page
+    //console.log("Connection en cours")
+      next({ name: 'login' })
+      return
+  }
+
+
+  if(to.path === '/') {
+    next({ name: 'url_accueil' })
+     return
+ }
+
+ next()
+})
+  // router.beforeEach((to, from, next) => {
+  //   // console.log(store)
+  //    // check if the route requires authentication and user is not logged in
+  //    if (to.matched.some(route => route.meta.requiresAuth) && !store.state.Utilisateurs.isLoggedIn) {
+  //        // redirect to login page
+  //        next({ name: 'Login' })
+  //        return
+  //    }
    
-     // if logged in redirect to dashboard
-     if(to.path === '/' && store.state.Utilisateurs.isLoggedIn) {
-       next({ name: 'url_accueil' })
-         return
-     }
+  //    // if logged in redirect to dashboard
+  //    if(to.path === '/' && store.state.Utilisateurs.isLoggedIn) {
+  //      next({ name: 'url_accueil' })
+  //        return
+  //    }
    
-     next()
-   })
+  //    next()
+  //  })
 
    export default router;
 
