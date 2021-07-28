@@ -1,6 +1,16 @@
 <template>
     <div>
-        <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
+
+      
+  <div class="">
+        <div class=""  id="color-form" style="margin-top:30px;">
+          <h1 class="" style="margin-left:800px;margin-top:-30px;" id="form-d">Information sur les comptes-rendu </h1>
+          <h3 class="section-sub-title"></h3>
+        </div>
+    </div>
+
+
+    <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
   <div class="banner-text">
     <div class="container">
         <div class="row">
@@ -104,3 +114,18 @@ export default {
     },
 }
 </script>
+<style scoped>
+#color-form{
+ background-color:#fe860b ; 
+ width:1730px;
+ height:100px;
+ padding-bottom:-100px;
+  margin-left:-210px;
+
+
+
+}
+#form-d{
+ color: #ffffff ; 
+}
+</style>

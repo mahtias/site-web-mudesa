@@ -2,10 +2,16 @@
 <div>
   <notifications />
  <div class="gap-40"></div>
+ <div class="">
+        <div class=""  id="color-form" style="margin-top:-40px;">
+          <h1 class="" style="margin-left:800px;margin-top:-30px;" id="form-d">Information de l'adhérant</h1>
+          <h3 class="section-sub-title"></h3>
+        </div>
+    </div>
 
     <div class="row" style="margin-left:200px;">
       <div class="col-md-10">
-        <h3 class="btn btn-primary solid blank" style="margin-left:300px;">veillez remplir ce formulaire d'adhesion</h3>
+        <h3 class="btn btn-primary solid blank" style="margin-left:300px;margin-top:30px;">veillez remplir ce formulaire d'adhesion</h3>
         <!-- contact form works with formspree.io  -->
         <!-- contact form activation doc: https://docs.themefisher.com/constra/contact-form/ -->
         <form id="contact-form" action="#" method="post" role="form">
@@ -117,3 +123,19 @@ ajouterAdLocal(){
     }
 }
 </script>
+
+<style scoped>
+#color-form{
+ background-color:#fe860b ; 
+ width:1730px;
+ height:100px;
+ padding-bottom:-100px;
+  margin-left:-210px;
+
+
+
+}
+#form-d{
+ color: #ffffff ; 
+}
+</style>

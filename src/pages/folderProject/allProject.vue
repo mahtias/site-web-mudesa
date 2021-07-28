@@ -22,6 +22,7 @@
   </div><!-- Banner text end -->
 </div><!-- Banner area end --> 
 
+
 <section id="main-container" class="main-container">
   <div class="container">
     <div class="row">
@@ -31,24 +32,28 @@
 
           <Tabs size="small">
         <TabPane label="Tous">
-         <!-- <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]"> -->
+          <!-- <table class="table table-bordered table-striped" >
+            <tr>
+            
+         <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project1.jpg">
-                <img class="img-fluid" src="images/projects/project1.jpg" alt="project-image">
+                 <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
-              </a>
-              <div class="project-item-info">
-                <div class="project-item-info-content">
-                  <h3 class="project-item-title">
-                    <a href="projects-single.html">Capital Teltway Building</a>
-                  </h3>
-                  <p class="project-cat">Commercial, Interiors</p>
-                </div>
-              </div>
-            <!-- </div> -->
-          </div><!-- shuffle item 1 end -->
 
+            </div>
+          </div>
+        
+           
+         <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
+            <div class="project-img-container">
+                 <img loading="lazy" class="img-fluid" src="../../../public/Urls/images/news/news8.jpg" alt="img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 
+            </div>
+          </div>
+          
+           </tr>
+          </table> -->
 
         </TabPane>
         <TabPane label="Santé">

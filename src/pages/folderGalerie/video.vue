@@ -1,9 +1,15 @@
 <template>
 <div>
+   <div class="">
+        <div class=""  id="color-form" style="margin-top:30px;">
+          <h1 class=""> </h1>
+          <h3 class="section-sub-title"  style="margin-left:500px;margin-top:-30px;" id="form-d">les videos de quelque Evenement</h3>
+        </div>
+    </div>
   <div class="row text-center">
         <div class="col-10">
           <!-- <h2 class="section-title">Work of Excellence</h2> -->
-          <h3 class="section-sub-title">les videos de quelque Evenement</h3>
+          <h3 class="section-sub-title"></h3>
         </div>
     </div>
      <div class="row">
@@ -37,3 +43,18 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     
     </div>
 </template>
+<style scoped>
+#color-form{
+ background-color:#fe860b ; 
+ width:1730px;
+ height:100px;
+ padding-bottom:-100px;
+  margin-left:-210px;
+
+
+
+}
+#form-d{
+ color: #ffffff ; 
+}
+</style>

@@ -24,7 +24,7 @@
           <div class="row align-items-center h-100">
               <div class="col-md-12" >
                 <!-- <h2 class="slide-title-box" data-animation-in="slideInDown" style="color:#000!important">World Class Service</h2> -->
-                <h3 class="slide-title" data-animation-in="fadeIn" style="color:#000!important">Le chateaux</h3>
+                <h3 class="slide-title" data-animation-in="fadeIn" style="color:#000!important">Le chateau</h3>
                 <!-- <h3 class="slide-sub-title" data-animation-in="slideInLeft" style="color:#000!important">Your Choice is Simple</h3>
                 <p data-animation-in="slideInRight">
                     <a href="services.html" class="slider btn btn-primary border" style="color:#000!important">Our Services</a>

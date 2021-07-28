@@ -5,7 +5,7 @@
           <div class="row">
               <div class="col-lg-8 col-md-8">
                 <ul class=" " v-for="item  in gettersMessage" :key="item.id">
-                    <i class=""></i> <marquee behavior="" direction="left" class="btn btn-primary solid blank" style="color:red; width:1200px;" >{{item.libelle}}</marquee>
+                    <i class=""></i> <marquee behavior="" direction="left" class="btn btn-primary solid blank" style="color:red; width:1200px;" >{{item.libelle}} {{formaterDate(item.date)}}</marquee>
                     
                 </ul>
               </div>
@@ -202,7 +202,8 @@
     </div>
 </template>
 <script>
-import {mapGetters , mapActions} from "vuex"
+import {mapGetters , mapActions} from "vuex";
+import moment from 'moment';
 export default {
   data() {
     return{
@@ -220,10 +221,12 @@ export default {
 
 
   methods:{
-...mapActions("Utilisateurs",["getMessage","getDocument"])
+...mapActions("Utilisateurs",["getMessage","getDocument"]),
 
 
-
+ formaterDate(date) {
+              return moment(date, "YYYY-MM-DD").format("DD/MM/YYYY");
+            },
 
   }
 }

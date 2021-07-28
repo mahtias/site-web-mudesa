@@ -4,13 +4,13 @@
   <div class="container" >
     <div class="">
         <div class=""  id="color-form" style="margin-top:30px;">
-          <h1 class="" style="margin-left:50px;margin-top:-30px;" id="form-d"> MOT DU PRESIDENT</h1>
-          <h3 class="section-sub-title"></h3>
+          <!-- <h1 class="" > MOT DU PRESIDENT</h1> -->
+          <h3 class="section-sub-title" style="margin-left:500px;margin-top:-30px;" id="form-d">Apropos de MUDESA</h3>
         </div>
     </div>
     <!--/ Title row end -->
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-lg-4 col-md-6 mb-4" style="margin-top:-0px;">
           <div class="" style="padding:auto;">
               <div class="">
@@ -55,7 +55,7 @@ J’ai eu la grâce de Dieu de faire des
                  entreprises des fois doutent de plus
              en plus de leur formation qui n’est pas en adéquation avec les vrais besoins de l’entreprise.</p>
         
-    </div>
+    </div> -->
     <!--/ Content row end -->
 <!-- 
     <div class="general-btn text-center mt-4">

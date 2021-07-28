@@ -1,5 +1,11 @@
 <template>
     <div>
+        <div class="">
+        <div class=""  id="color-form" style="margin-top:30px;">
+          <h1 class="" style="margin-left:800px;margin-top:-30px;" id="form-d">Information sur les images </h1>
+          <h3 class="section-sub-title"></h3>
+        </div>
+    </div>
         <section id="news" class="news">
   <div class="container">
     <div class="row text-center">
@@ -93,3 +99,19 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+#color-form{
+ background-color:#fe860b ; 
+ width:1730px;
+ height:100px;
+ padding-bottom:-100px;
+  margin-left:-210px;
+
+
+
+}
+#form-d{
+ color: #ffffff ; 
+}
+</style>

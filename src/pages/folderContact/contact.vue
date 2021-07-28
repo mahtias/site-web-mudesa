@@ -1,5 +1,11 @@
 <template>
     <div>
+        <div class="">
+        <div class=""  id="color-form" style="margin-top:-10px;">
+          <!-- <h1 class="" > MOT DU PRESIDENT</h1> -->
+          <h3 class="section-sub-title" style="margin-left:500px;margin-top:-10px;" id="form-d">Information sur le contact</h3>
+        </div>
+    </div>
         <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
   <div class="banner-text">
     <div class="container">
@@ -120,17 +126,17 @@
                   required>
               </div>
             </div>
-             <!-- <div class="col-md-4">
-              <div class="form-group">
-                <label>Sujet <code>*</code></label>
-                <input class="form-control form-control-email" name="email" id="email" placeholder="" type="email"
-                  required>
-              </div>
-            </div> -->
+                    <!-- <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Sujet <code>*</code></label>
+                        <input class="form-control form-control-email" name="email" id="email" placeholder="" type="email"
+                          required>
+                      </div>
+                    </div> -->
             
             
           
-          <div style="margin-left:600px; margin-top:-285px;" class="col-md-6">
+          <div style="margin-left:600px; margin-top:-260px;" class="col-md-6">
             <label>Message <code>*</code></label>
             <textarea class="form-control form-control-message" v-model="formData.message" placeholder="" rows="11"
               required></textarea>
@@ -185,5 +191,18 @@ ajouterContatLocal(){
 .mapouter{position:relative;text-align:right;height:500px;width:1000;
 }
 .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:2000;
+}
+#color-form{
+ background-color:#fe860b ; 
+ width:1730px;
+ height:100px;
+ padding-bottom:-100px;
+  margin-left:-210px;
+
+
+
+}
+#form-d{
+ color: #ffffff ; 
 }
 </style>
