@@ -14,6 +14,7 @@ import document_rapport from '../../pages/folderRapport/document_rapport.vue'
 import cr from '../../pages/folderRapport/cr.vue'
 import our_people from '../../pages/folderPresentation/our_people.vue'
 import Apropos from "../../pages/folderApropos/Apropos.vue"
+import membreDuBureau from "../../pages/folderPresentation/membreDubureau.vue"
 
 const appRoute = [
 
@@ -21,6 +22,11 @@ const appRoute = [
         path: "/accueil",
         name: "url_accueil",
         component: Accueil
+    },
+    {
+        path:"/membre-bureau",
+        name:"membre_bureau",
+        component:membreDuBureau
     },
     {
         path:"/apropos-mudesa",

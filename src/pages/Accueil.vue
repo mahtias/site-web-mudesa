@@ -332,8 +332,8 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12">
-        <h2 class="section-title">Work of Excellence</h2>
-        <h3 class="section-sub-title">Recent Projects</h3>
+        <!-- <h2 class="section-title">Work of Excellence</h2> -->
+        <h3 class="section-sub-title">Projets Récents</h3>
       </div>
     </div>
     
@@ -342,27 +342,28 @@
       <div class="col-12">
         <div class="shuffle-btn-group">
           <label class="active" for="all">
-            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
+            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Tous
           </label>
           <label for="commercial">
-            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Commercial
+            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Commerciale
           </label>
           <label for="education">
             <input type="radio" name="shuffle-filter" id="education" value="education">Education
           </label>
           <label for="government">
-            <input type="radio" name="shuffle-filter" id="government" value="government">Government
+            <input type="radio" name="shuffle-filter" id="government" value="government">Agricole
           </label>
           <label for="infrastructure">
             <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Infrastructure
           </label>
           <label for="residential">
-            <input type="radio" name="shuffle-filter" id="residential" value="residential">Residential
+            <input type="radio" name="shuffle-filter" id="residential" value="residential">Santé
           </label>
-          <label for="healthcare">
-            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Healthcare
-          </label>
+          <!-- <label for="healthcare">
+            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Autres
+          </label> -->
         </div>
+
 
 
         <div class="row shuffle-wrapper">
@@ -371,7 +372,7 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project1.jpg" aria-label="project-img">
-                <img class="img-fluid" src="../../public/Urls/images/projects/project1.jpg" alt="project-img">
+               <img loading="lazy" class="img-fluid" src="../../public/Urls/images/news/news8.jpg" alt="img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -388,7 +389,7 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project2.jpg" aria-label="project-img">
-                <img class="img-fluid" src="../../public/Urls/images/projects/project2.jpg" alt="project-img">
+               <img loading="lazy" class="img-fluid" src="../../public/Urls/images/news/news8.jpg" alt="img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -405,7 +406,8 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project3.jpg" aria-label="project-img">
-                <img class="img-fluid" src="../../public/Urls/images/projects/project3.jpg" alt="project-img">
+                <!-- <img class="img-fluid" src="../../public/Urls/images/projects/project3.jpg" alt="project-img"> -->
+               <img loading="lazy" class="img-fluid" src="../../public/Urls/images/news/news8.jpg" alt="img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -422,7 +424,8 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project4.jpg" aria-label="project-img">
-                <img class="img-fluid" src="../../public/Urls/images/projects/project4.jpg" alt="project-img">
+                <!-- <img class="img-fluid" src="../../public/Urls/images/projects/project4.jpg" alt="project-img"> -->
+               <img loading="lazy" class="img-fluid" src="../../public/Urls/images/news/news8.jpg" alt="img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -438,7 +441,8 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project5.jpg" aria-label="project-img">
-                <img class="img-fluid" src="../../public/Urls/images/projects/project5.jpg" alt="project-img">
+               <img loading="lazy" class="img-fluid" src="../../public/Urls/images/news/news8.jpg" alt="img">
+                <!-- <img class="img-fluid" src="../../public/Urls/images/projects/project5.jpg" alt="project-img"> -->
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -455,7 +459,8 @@
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;residential&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href="../../public/Urls/images/projects/project6.jpg" aria-label="project-img">
-                <img class="img-fluid" src="../../public/Urls/images/projects/project6.jpg" alt="project-img">
+              <img loading="lazy" class="img-fluid" src="../../public/Urls/images/news/news8.jpg" alt="img">
+                <!-- <img class="img-fluid" src="../../public/Urls/images/projects/project6.jpg" alt="project-img"> -->
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -473,7 +478,7 @@
 
       <div class="col-12">
         <div class="general-btn text-center">
-          <a class="btn btn-primary" href="projects.html">Voir tous les projets</a>
+          <a @click.prevent="goToraflechir('all_projet')"  class="btn btn-primary" href="#">Voir tous les projets</a>
         </div>
       </div>
 
@@ -711,3 +716,19 @@
 </section> -->
     </div>
 </template>
+<script>
+export default {
+  data() {
+    return{
+
+    }
+    
+  },
+  methods:{
+    goToraflechir(route_name){
+   this.$router.push({name:route_name})
+   window.location.reload();
+   },
+  }
+}
+</script>

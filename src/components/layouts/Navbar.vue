@@ -14,9 +14,9 @@
               <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
                 <ul class="list-unstyled">
                     <li>
-                      <a title="Facebook" href="https://www.facebook.com/AJARA2019">
+                      <!-- <a title="Facebook" href="https://www.facebook.com/AJARA2019">
                           <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
-                      </a>
+                      </a> -->
                       <!-- <a title="Twitter" href="https://twitter.com/themefisher.com">
                           <span class="social-icon"><i class="fab fa-twitter"></i></span>
                       </a>
@@ -44,9 +44,9 @@
       <div class="">
           <div class="row align-items-center ">
             <div class="">
-                <router-link :to="{name:'url_accueil'}" tag="a">
+                <a @click.prevent="goToRead('url_accueil')" >
                   <img  src="images/logo.png" alt="">
-                </router-link>
+                </a>
             </div><!-- logo end -->
   
             <div class="col-lg-9 header-right">
@@ -99,7 +99,7 @@
                 <div id="navbar-collapse" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav mr-auto">
                       <li class="nav-item dropdown active">
-                          <router-link :to="{name:'url_accueil'}" tag="a" class="nav-link dropdown-toggle" data-toggle="dropdown">Accueil <i class=""></i></router-link>
+                          <a @click.prevent="goToRead('url_accueil')"  class="nav-link dropdown-toggle" data-toggle="dropdown">Accueil <i class=""></i></a>
                           <!-- <ul class="dropdown-menu" role="menu">
                             <li class="active"><a href="index.html">Home One</a></li>
                             <li><a href="index-2.html">Home Two</a></li>
@@ -109,10 +109,10 @@
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Presentation <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><router-link :to="{name:'pople'}" tag="a" href="#">Our People</router-link></li>
-                            <li><router-link :to="{name:'mot_president'}" tag="a" href="#">Mots du president</router-link></li>
-                            <li><router-link :to="{name:'histoire_mutuelle'}" href="#">Histoire de la mutuelle</router-link></li>
-                            <li><router-link :to="{name:'poste_bureau'}" href="#">Le bureau</router-link></li>
+                            <li><a @click.prevent="goToMembre('membre_bureau')"  href="#">Membre du bureau</a></li>
+                            <li><a @click.prevent="goTo('mot_president')"  href="#">Mots du president</a></li>
+                            <li><a @click.prevent="gotTohistory('histoire_mutuelle')"  href="#">Histoire de la mutuelle</a></li>
+                            <li><a @click.prevent="goToBureau('poste_bureau')" >Le bureau</a></li>
                             <!-- <li><a href="faq.html">Faq</a></li>
                             <li><a href="pricing.html">Pricing</a></li> pste_bureau -->
                           </ul>
@@ -121,7 +121,7 @@
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projets <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><router-link :to="{name:'all_projet'}" tag="a" href="#">tous les projets</router-link></li>
+                            <li><a @click.prevent="goToProjet('all_projet')"  href="#">tous les projets</a></li>
                             <!-- <li><router-link :to="{name:'single_project'}" tag="a" href="#">Projets</router-link></li> -->
                           </ul>
                       </li>
@@ -149,13 +149,13 @@
                             </li>
                           </ul>
                       </li> -->
-                         <li class="nav-item"><router-link :to="{name:'urls_adhesion'}" tag="a" class="nav-link" href="#">Espace Adhésion </router-link></li>
+                         <li class="nav-item"><a @click.prevent="goToAdhesion('urls_adhesion')"  class="nav-link" href="#">Espace Adhésion </a></li>
 
                       <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Doc & Rapport <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><router-link :to="{name:'rapport'}" tag="a" href="#">Rapport</router-link></li>
-                            <li><router-link :to="{name:'url_cr'}" tag="a" href="#">compte-rendu (CR) </router-link></li>
+                            <li><a @click.prevent="goToRapport('rapport')"  href="#">Rapport</a></li>
+                            <!-- <li><router-link :to="{name:'url_cr'}" tag="a" href="#">compte-rendu (CR) </router-link></li> -->
                             <!-- <li><a href="news-single.html">Autres</a></li> -->
                           </ul>
                       </li>
@@ -163,16 +163,16 @@
                      <li class="nav-item dropdown">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Evenement <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><router-link :to="{name:'url_photo'}" tag="a" href="#">Image <img loading="" src="" alt=""> </router-link>
+                            <li><a @click.prevent="goToPhoto('url_photo')"  href="#">Image <img loading="" src="" alt=""> </a>
                             
                             </li>
-                            <li><router-link :to="{name:'url_video'}" tag="a" href="#">video</router-link></li>
+                            <li><a @click.prevent="goToVideo('url_video')"  href="#">video</a></li>
                             <!-- <li><a href="news-single.html">Autres</a></li> -->
                           </ul>
                       </li>
-                      <li class="nav-item"><router-link :to="{name:'propos_mudesa'}" tag="a" class="nav-link" href="#">Apropos</router-link></li>
+                      <li class="nav-item"><a @click.prevent="goToApropos('propos_mudesa')"  class="nav-link" href="#">Allongo</a></li>
 
-                      <li class="nav-item"><router-link :to="{name:'contcat'}" tag="a" class="nav-link" href="#">Contact</router-link></li>
+                      <li class="nav-item"><a @click.prevent="goToContact('contcat')"  class="nav-link" href="#">Contact</a></li>
 
                     </ul>
                 </div>
@@ -221,9 +221,72 @@ export default {
 
 
   methods:{
-...mapActions("Utilisateurs",["getMessage","getDocument"]),
+...mapActions("Utilisateurs",["getMessage","getDocument",]),
+
+   goTo(route_name){
+   this.$router.push({name:route_name
+   })
+  
+   location.reload();
+   },
+
+   goToRead(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+
+   
+   goToMembre(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+
+   
+   goToBureau(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+   goToProjet(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+   
+   goToRapport(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
 
 
+
+  gotTohistory(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+   goToAdhesion(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+   
+    goToPhoto(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+    goToVideo(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+
+goToContact(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+   goToApropos(route_name){
+   this.$router.push({name:route_name})
+   location.reload();
+   },
+   
+   
+   
  formaterDate(date) {
               return moment(date, "YYYY-MM-DD").format("DD/MM/YYYY");
             },

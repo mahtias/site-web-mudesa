@@ -1,31 +1,36 @@
 <template>
     <div>
-        <div class="">
-        <div class=""  id="color-form" style="margin-top:-10px;">
-          <!-- <h1 class="" > MOT DU PRESIDENT</h1> -->
-          <h3 class="section-sub-title" style="margin-left:500px;margin-top:-10px;" id="form-d">Information sur le contact</h3>
+        <div class="banner-carousel banner-carousel-1 mb-0">
+     <div id="banner-area" class="banner-area" style="background-image:url(images/slider-main/bg6.jpg)">
+   <div class="slider-content">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+              <div class="col-md-12 text-center">
+                <h3 class="slide-sub-title" data-animation-in="slideInRight">MUtuelle pour le Developpement Economique et Sociale d 'Allongo </h3>
+                <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                    
+                </p>
+              </div>
+          </div>
         </div>
     </div>
-        <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
-  <div class="banner-text">
-    <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-              <div class="banner-heading">
-                <h1 class="banner-title">MUtuelle pour le Developpement Economique et Sociale d 'Allongo</h1>
-                <!-- <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">Company</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-                    </ol>
-                </nav> -->
+     </div>
+
+       <div id="banner-area" class="banner-area" style="background-image:url(images/slider-main/bg8.jpg)">
+   <div class="slider-content">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+              <div class="col-md-12 text-center">
+                <h3 class="slide-sub-title" data-animation-in="slideInRight">MUtuelle pour le Developpement Economique et Sociale d 'Allongo </h3>
+                <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                    
+                </p>
               </div>
-          </div><!-- Col end -->
-        </div><!-- Row end -->
-    </div><!-- Container end -->
-  </div><!-- Banner text end -->
-</div><!-- Banner area end --> 
+          </div>
+        </div>
+    </div>
+     </div>
+</div>
 
 
 <section id="main-container" class="main-container">
@@ -43,14 +48,14 @@
       <div class="col-md-4">
         <div class="ts-service-box-bg text-center h-100">
           <span class="ts-service-icon icon-round">
-            <i class="fas fa-map-marker-alt mr-0"></i>
+            <i class="fa fa-phone-square mr-0"></i>
           </span>
           <div class="ts-service-box-content">
-            <h4>Visit Our Office</h4>
-            <p>9051 Constra Incorporate, USA</p>
+            <h4>Contact</h4>
+            <p>(+225) 07 55 06 33 08 </p>
           </div>
         </div>
-      </div><!-- Col 1 end -->
+      </div><!-- Col 3 end -->
 
       <div class="col-md-4">
         <div class="ts-service-box-bg text-center h-100">
@@ -71,7 +76,7 @@
           </span>
           <div class="ts-service-box-content">
             <h4>Contact</h4>
-            <p>(+9) 8</p>
+            <p>(+225) 07 66 09 25 00</p>
           </div>
         </div>
       </div><!-- Col 3 end -->
@@ -97,14 +102,18 @@
     
   </div><!-- Conatiner end -->
 </section><!-- Main container end -->
+<br>
 
   <form id="contact-form" action="#" method="post" role="form">
           <div class="error-container" style="margin-left:110px;">
-            <h2 class="btn btn-primary solid blank">FORMULAIRE DE CONTACT</h2>
+
+
+            <h2 class="btn btn-primary solid blank" style="margin-left:500px;">FORMULAIRE DE CONTACT</h2>
 
 <p>Pour toute question ou demande d'information, vous pouvez nous appeler ou nous contacter avec le formulaire ci-dessous</p>
           </div>
           <!-- <div class="row" style="margin-left:300px;"> -->
+            <br>
             <div class="col-md-4" style="margin-left:90px;">
               <div class="form-group">
                 <label>Nom <code>*</code></label>
@@ -142,7 +151,11 @@
               required></textarea>
           </div>
           <div class="text-right" style="margin-top:-20px;"><br>
-            <button class="btn btn-primary solid blank" @click.prevent="ajouterContatLocal">Send Message</button>
+          <!-- <span v-if="errorMessage !== undefined" style="color: red;" class="form-control is-invalid">{{errorMessage}}</span>
+
+            <span v-if="champVide" style="color: red;" class="form-control is-invalid">Tous les champs  sont obligatoires !<br></span> -->
+            <br>
+            <button type="error" class="btn btn-primary solid blank" @click.prevent="ajouterContatLocal">Send Message</button>
           </div>
         </form>
 <notifications />
@@ -158,7 +171,8 @@ export default {
        prenom:"",
        sujet:"",
        message:""
-     }
+     },
+     loading2:false
     }
     
   },
@@ -171,7 +185,18 @@ export default {
   methods:{
 ...mapActions("Utilisateurs",["ajouterContact"]),
 
+ 
 ajouterContatLocal(){
+  //  this.loading2 = true;
+
+  //               if (!this.champVide){
+
+  //                   this.loading2=false
+  //               }
+  //               if (this.errorMessage === undefined)
+  //               {
+  //                   this.loading2=false
+  //               }
  this.ajouterContact(this.formData)
   this.formData={
        nom:"",

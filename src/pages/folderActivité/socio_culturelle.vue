@@ -22,7 +22,7 @@
 </div><!-- Banner area end --> 
 
 
-
+<!-- 
 <section id="main-container" class="main-container">
   <div class="container">
     <div class="row">
@@ -39,7 +39,7 @@
               <li><a href="#">Renovation</a></li>
               <li><a href="#">Safety Management</a></li>
             </ul>
-          </div><!-- Widget end -->
+          </div>
 
           <div class="widget">
             <div class="quote-item quote-border">
@@ -54,12 +54,12 @@
                   <span class="quote-subtext">CEO, First Choice Group</span>
                 </div>
               </div>
-            </div><!-- Quote item end -->
+            </div>
 
-          </div><!-- Widget end -->
+          </div>
 
-        </div><!-- Sidebar end -->
-      </div><!-- Sidebar Col end -->
+        </div>
+      </div>
 
       <div class="col-xl-8 col-lg-8">
         <div class="content-inner-page">
@@ -74,8 +74,8 @@
               <p>Nam scelerisque tristique dolor vitae tincidunt. Aenean quis massa uada mi elementum elementum. , nec
                 tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo
                 iaculis ligula, ac dapibus quam ornare ut. Praesent ac hendrerit sem, et tempus sem</p>
-            </div><!-- col end -->
-          </div><!-- 1st row end-->
+            </div>
+          </div>
 
           <div class="gap-40"></div>
 
@@ -87,7 +87,7 @@
             <div class="item">
               <img loading="lazy" class="img-fluid" src="../../../public/images/projects/project2.jpg" alt="project-slider-image" />
             </div>
-          </div><!-- Page slider end -->
+          </div>
 
           <div class="gap-40"></div>
 
@@ -175,10 +175,10 @@
                   </div>
                 </div>
               </div>
-              <!--/ Accordion end -->
+              
             </div>
           </div>
-          <!--2nd row end -->
+        
 
           <div class="gap-40"></div>
 
@@ -188,22 +188,22 @@
                 <div class="call-to-action-text">
                   <h3 class="action-title">Interested with this service.</h3>
                 </div>
-              </div><!-- Col end -->
+              </div>
               <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
                 <div class="call-to-action-btn">
                   <a class="btn btn-primary" href="#">Get a Quote</a>
                 </div>
-              </div><!-- col end -->
-            </div><!-- row end -->
-          </div><!-- Action end -->
+              </div>
+            </div>
+          </div>
 
-        </div><!-- Content inner end -->
-      </div><!-- Content Col end -->
+        </div>
+      </div>
 
 
-    </div><!-- Main row end -->
-  </div><!-- Conatiner end -->
-</section><!-- Main container end -->
+    </div>
+  </div>
+</section> -->
 
     </div>
 </template>

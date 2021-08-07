@@ -25,7 +25,7 @@ const router = new VueRouter({
   if (to.path === '/' && !store.state.Utilisateurs.isLoggedIn) {
       // redirect to login page
     //console.log("Connection en cours")
-      next({ name: 'login' })
+      next({ name: 'url_accueil' })
       return
   }
 

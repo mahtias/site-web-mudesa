@@ -23,7 +23,7 @@
 </div><!-- Banner area end --> 
 
 
-
+<!-- 
 <section id="main-container" class="main-container pb-2">
   <div class="container">
     <div class="row">
@@ -43,9 +43,8 @@
                   <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
               </div>
             </div>
-        </div><!-- Service1 end -->
-      </div><!-- Col 1 end -->
-
+        </div>
+      </div>
       <div class="col-lg-4 col-md-6 mb-5">
         <div class="ts-service-box">
             <div class="ts-service-image-wrapper">
@@ -61,8 +60,8 @@
                   <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
               </div>
             </div>
-        </div><!-- Service2 end -->
-      </div><!-- Col 2 end -->
+        </div>
+      </div>
 
       <div class="col-lg-4 col-md-6 mb-5">
         <div class="ts-service-box">
@@ -79,8 +78,8 @@
                   <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
               </div>
             </div>
-        </div><!-- Service3 end -->
-      </div><!-- Col 3 end -->
+        </div>
+      </div>
 
       <div class="col-lg-4 col-md-6 mb-5">
         <div class="ts-service-box">
@@ -97,8 +96,8 @@
                   <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
               </div>
             </div>
-        </div><!-- Service1 end -->
-      </div><!-- Col 4 end -->
+        </div>
+      </div>
 
       <div class="col-lg-4 col-md-6 mb-5">
         <div class="ts-service-box">
@@ -115,8 +114,8 @@
                   <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
               </div>
             </div>
-        </div><!-- Service2 end -->
-      </div><!-- Col 5 end -->
+        </div>
+      </div>
 
       <div class="col-lg-4 col-md-6 mb-5">
         <div class="ts-service-box">
@@ -133,12 +132,12 @@
                   <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a>
               </div>
             </div>
-        </div><!-- Service3 end -->
-      </div><!-- Col 6 end -->
+        </div>
+      </div>
 
-    </div><!-- Main row end -->
-  </div><!-- Conatiner end -->
-</section><!-- Main container end -->
+    </div>
+  </div>
+</section> -->
     </div>
 </template>
 <script>

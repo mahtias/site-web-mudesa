@@ -12,8 +12,11 @@
               Economique et Social d'Allongo</p>
             <div class="footer-social">
               <ul>
-                <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
-                      class="fab fa-facebook-f"></i></a></li>
+                <li>
+                  <a title="Facebook" href="https://www.facebook.com/AJARA2019">
+                          <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                      </a>
+                      </li>
                 <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
